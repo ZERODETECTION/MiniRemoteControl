@@ -1,7 +1,7 @@
 [![Zero Detection Logo](https://github.com/ZERODETECTION/H9_Stage0/blob/main/logo_sm.png)](https://www.zerodetection.net/)
 
 
-# Go Screenshot and Command Execution Server
+# Screenshot and Command Execution Server
 
 A Go program that captures screenshots at regular intervals and serves them via an HTTP server. Optionally, it can execute commands received via HTTP requests.
 
