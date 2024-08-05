@@ -176,6 +176,11 @@ func main() {
 		fmt.Printf("Screenshot saved: %s\n", filename)
 		count++
 
+		// Reset count if it exceeds the maximum allowed screenshots
+		if count >= maxScreenshots {
+			count = 0
+		}
+
 		// Clean up old screenshots if the number exceeds the maximum
 		err = cleanOldScreenshots(screenshotDir, maxScreenshots)
 		if err != nil {
