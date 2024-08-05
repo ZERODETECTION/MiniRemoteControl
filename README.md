@@ -38,6 +38,13 @@ To build and run the program with default settings:
 go run main.go
 ```
 
+Compile to executeable:
+```sh
+set GOOS=windows
+set GOARCH=amd64
+go build -o screenshot_server.exe
+```sh
+
 ### Command-Line Arguments
 
 - **`-dir`**: Directory to save screenshots. Default is `./screenshots/`.
