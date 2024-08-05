@@ -43,7 +43,7 @@ Compile to executeable:
 set GOOS=windows
 set GOARCH=amd64
 go build -o screenshot_server.exe
-```sh
+```
 
 ### Command-Line Arguments
 
